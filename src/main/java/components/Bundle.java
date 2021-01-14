@@ -11,7 +11,7 @@ public class Bundle {
     private final ResourceBundle bundle;
 
     public Bundle() {
-        bundle = ResourceBundle.getBundle("bundle", new Locale(config.locale));
+        bundle = ResourceBundle.getBundle("bundle.bundle", new Locale(config.locale));
     }
 
     public String get(String key) {
