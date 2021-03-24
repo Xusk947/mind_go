@@ -6,6 +6,7 @@ public class Main extends Plugin {
 
     @Override
     public void init() {
+        
     }
     
 }
