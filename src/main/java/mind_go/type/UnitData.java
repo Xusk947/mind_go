@@ -12,6 +12,7 @@ public class UnitData {
     
     public UnitData(Unit unit) {
         this.unit = unit;
+        this.mounts = new Seq<>();
     }
     
     public void update() {
